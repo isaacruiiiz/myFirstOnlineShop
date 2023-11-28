@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/web.css"> 
+    <title>TKON -Contact</title>
+</head>
+<body>
+    <nav class="upperMenu">
+        <a href="Shop.html">Shop</a>
+        <a id="contact" href="Contact.html">Contact</a>
+        <a href="News.html">News</a>
+        <a href="Register.html">Register</a>
+    </nav>
+      <header>
+        <a href="web.html">
+          <div class="goHomeButton">
+            <ion-icon id="arrow" name="arrow-back-outline"></ion-icon>
+            <p id="goHomeLink">Go Home</p>
+          </div>
+        </a>
+        
+        <h1 class="principalTitle">Contact</h1>
+
+        <section class="flexboxContact">
+          <div id="aboutMe">
+            <h1 id="aboutMeTitle">About Me</h1>
+            <p id="aboutMeText">Hi there! My name is Isaac Ruiz and I'm an 18-year-old student currently studying DAM at Centre d'estudis politecnics. <br><br> I've always been fascinated by the power of design to transform how people experience and interact with the world around them. That's why I'm passionate about becoming a UI designer – I believe that good design can make a real difference in people's lives. <br><br>
+              In my free time, I love exploring new design trends and experimenting with different tools and techniques. I also enjoy staying up to date with the latest developments in the tech industry, as I believe that technology and design are closely intertwined.
+              As a budding UI designer, my goal is to create intuitive, user-friendly interfaces that make people's lives easier and more enjoyable. I'm excited to continue learning and growing in this field, and I can't wait to see where this journey takes me!</p>
+          </div>
+
+          <div id="personalInfo">
+            <h1 id="personalInfoTitle">Personal Info</h1>
+            <p id="personalInfoText">Email: isaacruiiiz04@gmail.com</p>
+            <p id="personalInfoText">Instagram: <a id="instagram" href="https://www.instagram.com/isaac.ruiiiz/" target="_blank">isaac.ruiiiz</a></p>
+            <p id="personalInfoText">Location: <a id="location" href="https://www.google.com/maps/place/08780+Pallej%C3%A0,+Barcelona/@41.4214215,1.988781,15z/data=!3m1!4b1!4m5!3m4!1s0x12a490074d4c61c5:0x4aac5943bcc6ed23!8m2!3d41.4213871!4d1.9972813" target="_blank">Pallejà</a></p>
+            <p id="personalInfoText">Curriculum:</p>
+            
+            <div class="pdf-preview">
+              <a href="curriculum/Curriculum Isaac Ruiz-Calero Aceiton.pdf" target="_blank">
+                <img src="imatges/Curriculum imatge.jpg" alt="Miniatura del PDF">
+                <div class="pdf-title">Curriculum</div>
+              </a>
+            </div>
+            
+          </div>
+          
+        </section>
+
+        <div id="contactForm">
+          <form id="text">
+              <input type="text" id="contactFormName" placeholder="Name *" required> 
+              <br>
+
+              <input type="text" id="contactLastName" placeholder="Last Name *" required>
+              <br>
+
+              <input type="text" id="contactEmail" placeholder="Email *" required>
+              <br>
+
+              <select class="menu" required placeholder="Select the reason to contact *">
+                <option value="" selected>Select the reason to contact</option>
+                <option value="option1">How I can be an a distribuitor of the shop?</option>
+                <option value="option2">More information about the shop</option>
+                <option value="option3">Post a new in the news page</option>
+              </select>
+              <br>        
+
+              <textarea id="writeSomething" name="message" placeholder="You can specify more here:"></textarea>
+              <br><br>
+
+              <input type="checkbox" id="checkbox" name="consent" required>
+              <label for="consent" required>By clicking here you indicate that you agree with the data collection *</label>
+              <br>
+              
+              <button type="submit" id="sentContactForm">Sent</button>
+              <br>
+        </form>
+      </div>
+      </header>
+</body>
+<footer>
+  <p class="footer">© 2023 TKON SPAIN, Inc. All rights reserved</p>
+</footer>
+</html>
